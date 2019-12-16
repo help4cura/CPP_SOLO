@@ -12,11 +12,11 @@ void announce(string name, unsigned char bloodtype, int age) {
 /* announce 함수에 사용자가 임의로 입력을 하기 때문에 main 함수에도 변수 선언 필요 */
 
 int main() {
-    string name;
-    unsigned char bloodtype;
-    int age;
-    cin >> name >> bloodtype >> age;
-    announce(name, bloodtype, age);
+    string a;
+    unsigned char b;
+    int c;
+    cin >> a >> b >> c;
+    announce(a, b, c);
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
